@@ -1,0 +1,6 @@
+[
+    { "id": 1, "title": "First Blog Post", "content": "Content for the first post", "date": "2023-08-13" },
+    { "id": 2, "title": "Second Blog Post", "content": "Content for the second post", "date": "2023-08-14" },
+    { "id": 3, "title": "Third Blog Post", "content": "Content for the third post", "date": "2023-08-15" }
+  ]
+  
