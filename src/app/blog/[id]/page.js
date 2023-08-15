@@ -1,6 +1,8 @@
 
 
 import posts from '../../../data/blogData.json';
+import './style.css'
+
 export default async function SingleBlog({ params }) {
     const id = parseInt(params.id);
     const post = posts.find(data => {
@@ -11,9 +13,10 @@ export default async function SingleBlog({ params }) {
    
     return (
         <div>
-            <section>
-                <h1 className="font-bold text-lg">{post.title}</h1>
-                <div className="mt-5">{post.content}</div>        
+            <section className="custom-section">
+                <h1 className="">{post.title}</h1>
+                <div className=" post-content">{post.content}</div>        
+                <p className="post-date">Date:{post.date }</p>
             </section>
         </div>
     );
