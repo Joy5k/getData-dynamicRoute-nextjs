@@ -1,0 +1,1 @@
+Live link:https://get-data-dynamic-route-nextjs.vercel.app/

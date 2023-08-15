@@ -1,7 +1,7 @@
 // import getAllPosts from "@/lib/getAllPost";
 import Link from "next/link";
 import posts from '../../data/blogData.json'
-import './style.css'
+import './blogStyle.css'
 export default async function Blog() {
     // const posts = await getAllPosts();
 

@@ -1,7 +1,7 @@
 
 
 import posts from '../../../data/blogData.json';
-import './style.css'
+import './Idstyle.css'
 
 export default async function SingleBlog({ params }) {
     const id = parseInt(params.id);
