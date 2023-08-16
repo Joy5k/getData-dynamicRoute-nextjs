@@ -3,7 +3,6 @@ import Link from "next/link";
 import posts from '../../data/blogData.json'
 import './blogStyle.css'
 export default async function Blog() {
-    // const posts = await getAllPosts();
 
     return (
         <div>
